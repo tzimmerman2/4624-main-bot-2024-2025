@@ -1,0 +1,66 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.772252217181168,
+        "y": 3.8508777647321635
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.522535182750059,
+        "y": 3.8627690520860254
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 4.487215909090909,
+        "y": 7.460213068181818
+      },
+      "prevControl": {
+        "x": 7.478693181818182,
+        "y": 6.662485795454545
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "BottomPosition",
+      "waypointRelativePos": 0.200784826684123,
+      "endWaypointRelativePos": 2.0,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "BottomPosition"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 1.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 540.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -178.97696981133208
+  },
+  "reversed": false,
+  "folder": "SMRB",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 179.6396539366128
+  },
+  "useDefaultConstraints": false
+}

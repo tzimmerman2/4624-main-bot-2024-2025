@@ -1,0 +1,66 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.7758923143534915,
+        "y": 4.183980892360875
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.817727272727272,
+        "y": 2.5741335227272724
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 4.467272727272728,
+        "y": 0.8590198863636362
+      },
+      "prevControl": {
+        "x": 4.598026038531006,
+        "y": 1.171375018813967
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "BottomPosition",
+      "waypointRelativePos": 0.10987573577502126,
+      "endWaypointRelativePos": 1.0,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "BottomPosition"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 1.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 540.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "reversed": false,
+  "folder": "SMBB",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 179.6396539366128
+  },
+  "useDefaultConstraints": false
+}

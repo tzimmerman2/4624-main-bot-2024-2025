@@ -1,0 +1,66 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.03,
+        "y": 2.855
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.195198863636364,
+        "y": 2.424559659090909
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.787,
+        "y": 0.756
+      },
+      "prevControl": {
+        "x": 3.091193181818182,
+        "y": 1.6966335227272735
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "PickupPosition",
+      "waypointRelativePos": 0.14126880313931514,
+      "endWaypointRelativePos": 1.0,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "PickupPosition"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.7,
+    "maxAcceleration": 2.1,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 540.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -128.5383809207206
+  },
+  "reversed": false,
+  "folder": "RedBargeAuto",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 121.37300513979788
+  },
+  "useDefaultConstraints": true
+}
